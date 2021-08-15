@@ -34,3 +34,13 @@ https://pgp.mit.edu/pks/lookup?op=get&search=0xF4AD41E882AE97BE
 - A file will be created with file_to_encrypt.asc.
 - Attach the same file to email along with your GPG public key so that I can reply you back in encrypted mail.
 
+
+# Decrypt an PGP encrypted file
+
+- Import private key, if not already in GPG keyring.
+
+`gpg2 --import private.key`
+
+- Decrypt file
+
+`gpg --decrpt encrypted_file.asc`

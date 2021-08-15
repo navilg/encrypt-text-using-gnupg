@@ -10,9 +10,14 @@ On RHEL based Linux OS
 
 `sudo yum install gpg2`
 
+On Windows OS
+
+`Download GPG executable from https://www.gpg4win.org/ and install it.`
+
 - Download public key from keyserver.
 
 https://pgp.mit.edu/pks/lookup?op=get&search=0xF4AD41E882AE97BE
+
 
 - Import the public key from downloaded public key.
 

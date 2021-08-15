@@ -1,4 +1,4 @@
-# Send me an encrypt file using GPG public key
+# Send me an encrypted file using GPG public key
 
 - Install gpg2
 
@@ -27,5 +27,5 @@ https://pgp.mit.edu/pks/lookup?op=get&search=0xF4AD41E882AE97BE
 `gpg2 --encrypt --sign --armor -r navratan.gupta@protonmail.com file_to_encrypt`
 
 - A file will be created with file_to_encrypt.asc.
-- Attach the same file to email and send to me.
+- Attach the same file to email along with your GPG public key so that I can reply you back in encrypted mail.
 
